@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="sl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Los Angeles Lakers – NBA sezona 2026/27, statistika, video, zemljevid in IoT podatki.">
+  <title>Los Angeles Lakers | NBA 2026/27</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+  <div class="brand">
+    <div class="brand-mark">
+        <img src="./slike/logo-lakers.png" alt="Lakers logo">
+    </div>
+
+    <div class="brand-text">
+        <p class="eyebrow">BASKETBALL DASHBOARD</p>
+        <h1>LOS ANGELES <span>LAKERS</span></h1>
+        <p class="season">NBA SEZONA 2026/27</p>
+    </div>
+  </div>
+    <div class="header-tag">PURPLE &amp; GOLD</div>
+  </header>
+
+  <nav class="main-nav" aria-label="Glavna navigacija">
+    <button class="nav-button active" data-view="stats">Statistika</button>
+    <button class="nav-button" data-view="video">YouTube</button>
+    <button class="nav-button" data-view="map">Zemljevid</button>
+    <button class="nav-button" data-view="thingspeak">ThingSpeak IoT</button>
+  </nav>
+
+  <div class="page-layout">
+    <main class="main-content">
+      <section id="stats" class="view active">
+        <div class="section-heading">
+          <p class="eyebrow">PLAYER PERFORMANCE</p>
+          <h2>Statistika igralcev</h2>
+          <p>Sezonska povprečja na tekmo (PPG, RPG, APG in FG%).</p>
+        </div>
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr><th>Igralec</th><th>Tekme</th><th>Točke</th><th>Skoki</th><th>Podaje<th>FG%</th></th></tr>
+            </thead>
+            <tbody>
+              <tr><td>Luka Dončić</td><td>7</td><td>38,3</td><td>8,0</td><td>8,1<td>49,7 %</td></td></tr>
+              <tr><td>Austin Reaves</td><td>8</td><td>23,6</td><td>3,3</td><td>5,1<td>53,9 %</td></td></tr>
+              <tr><td>Walker Kessler</td><td>8</td><td>14,4</td><td>10,5</td><td>1,3<td>71,4 %</td></td></tr>
+              <tr><td>Sandro Mamukelashvili</td><td>8</td><td>9,9</td><td>4,4</td><td>1,8<td>50 %</td></td></tr>
+              <tr><td>Matisse Thybulle</td><td>8</td><td>8,6</td><td>1,8</td><td>1,3<td>46,9 %</td></td></tr>
+              <tr><td>Jake LaRavia</td><td>8</td><td>6,4</td><td>3,4</td><td>1,5</td><td>59,4 %</td></tr>
+              <tr><td>Kevon Looney</td><td>5</td><td>1,6</td><td>1,6</td><td>0,2</td><td>50,0 %</td></tr>
+              <tr><td>Jarred Vanderbilt</td><td>5</td><td>1,2</td><td>3,0</td><td>1,2</td><td>75,0 %</td></tr>
+              <tr><td>Jaden Hardy</td><td>6</td><td>1,3</td><td>0,5</td><td>0,5</td><td>10,0 %</td></tr>
+              <tr><td>Bronny James</td><td>5</td><td>0,8</td><td>0,0</td><td>0,0</td><td>66,7 %</td></tr>
+              <tr><td>Cameron Carr</td><td>3</td><td>0,0</td><td>0,0</td><td>0,0</td><td>0,0 %</td></tr>
+              <tr><td>Chris Mañon</td><td>2</td><td>1,0</td><td>0,5</td><td>0,0</td><td>33,3 %</td></tr>
+              <tr><td>Lawson Lovering</td><td>2</td><td>0,0</td><td>0,5</td><td>0,0</td><td>0,0 %</td></tr>
+              <tr><td>Adou Thiero</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+              <tr><td>Arthur Kaluma</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+
+            </tbody>
+          </table>
+        </div>
+        <p class="data-note">Podatki so primer sezonske statistike po prvih osmih tekmah, stanje 5. 11. 2026.</p>
+        <div class="team-highlight">
+          <div><span class="big-number">6–2</span><span class="small-label">IZKUPIČEK EKIPE</span></div>
+          <div><span class="big-number">122,5</span><span class="small-label">TOČK NA TEKMO</span></div>
+          <div><span class="big-number">+7,2</span><span class="small-label">TOČKOVNA RAZLIKA</span></div>
+        </div>
+      </section>
+
+      <section id="thingspeak" class="view">
+        <div class="section-heading">
+          <p class="eyebrow">INTERNET OF THINGS</p>
+          <h2>ThingSpeak – prikaz podatkov</h2>
+        </div>
+        <div class="embed-frame">
+          <iframe
+            title="ThingSpeak graf – kanal 3559613"
+            src="https://thingspeak.com/channels/3559613/charts/1?bgcolor=%23ffffff&color=%23552583&dynamic=true&results=60&type=line"
+            loading="lazy"></iframe>
+        </div>
+      </section>
+
+      <section id="video" class="view">
+        <div class="section-heading">
+          <p class="eyebrow">HYPE VIDEO</p>
+          <h2>Lakers na YouTubu</h2>
+          <p>Video vsebina z uradnega kanala Los Angeles Lakers.</p>
+        </div>
+        <div class="embed-frame video-frame">
+          <iframe
+            title="Los Angeles Lakers 2026 In-Arena HYPE Video"
+            src="https://www.youtube.com/embed/Gncp8BcZFlw"
+            loading="lazy"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen></iframe>
+        </div>
+      </section>
+
+      <section id="map" class="view">
+        <div class="section-heading">
+          <p class="eyebrow">HOME ARENA</p>
+          <h2>Crypto.com Arena</h2>
+          <p>Domača dvorana ekipe Los Angeles Lakers v središču Los Angelesa.</p>
+        </div>
+        <div class="embed-frame map-frame">
+          <iframe
+            title="Zemljevid dvorane Crypto.com Arena"
+            src="https://www.openstreetmap.org/export/embed.html?bbox=-118.2715%2C34.0410%2C-118.2580%2C34.0485&layer=mapnik&marker=34.0430%2C-118.2673"
+            loading="lazy"></iframe>
+        </div>
+        <a class="text-link" href="https://www.openstreetmap.org/?mlat=34.0430&mlon=-118.2673#map=17/34.0430/-118.2673" target="_blank" rel="noopener">Odpri večji zemljevid</a>
+      </section>
+    </main>
+
+    <aside class="sidebar">
+      <section class="widget">
+        <p class="eyebrow">LOS ANGELES, CA</p>
+        <h2>Vreme</h2>
+        <div id="weather" class="weather-box">
+          <span class="weather-temp">--°C</span>
+          <span id="weather-description">Nalaganje podatkov …</span>
+        </div>
+        <p class="widget-note">Podatki: Open-Meteo API</p>
+      </section>
+
+      <section class="widget">
+        <p class="eyebrow">LIVE AUDIO</p>
+        <h2>Spletni radio</h2>
+        <p class="radio-description">Poslušaj spletni radijski tok.</p>
+        <audio controls preload="none">
+          <source src="https://stream.radioparadise.com/aac-320" type="audio/aac">
+          Tvoj brskalnik ne podpira predvajanja zvoka.
+        </audio>
+        <p class="widget-note">Radio Paradise – spletni radio.</p>
+      </section>
+
+      <section class="widget quick-links">
+        <p class="eyebrow">UPORABNE POVEZAVE</p>
+        <h2>Več o ekipi</h2>
+        <a href="https://www.google.com/search?q=nba+standings&oq=nba+stand&gs_lcrp=EgZjaHJvbWUqDAgAEAAYQxiABBiKBTIMCAAQABhDGIAEGIoFMgwIARAAGEMYgAQYigUyBggCEEUYOTIMCAMQABgUGIcCGIAEMgcIBBAAGIAEMgcIBRAAGIAEMgcIBhAAGIAEMgwIBxAAGEMYgAQYigUyBwgIEAAYgAQyBwgJEAAYgATSAQg1Mjk2ajBqN6gCALACAA&sourceid=chrome&source=chrome.ob&ie=UTF-8#sie=lg;/g/11z276br2n;3;/m/05jvx;st;fp;1;;;;0" target="_blank" rel="noopener">Lestvica ↗</a>
+        <a href="https://www.nba.com/lakers" target="_blank" rel="noopener">Uradna stran Lakers ↗</a>
+        <a href="https://www.youtube.com/@lakers" target="_blank" rel="noopener">Lakers na YouTubu ↗</a>
+      </section>
+    </aside>
+  </div>
+
+  <footer class="site-footer">
+    <p>Los Angeles Lakers | NBA 2026/27</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
